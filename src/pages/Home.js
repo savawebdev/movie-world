@@ -7,6 +7,7 @@ const Home = () => {
   const [popular, setPopular] = useState([]);
   const [trending, setTrending] = useState([]);
   const [nowPlaying, setNowPlaying] = useState([]);
+  const [upcoming, setUpcoming] = useState([]);
 
   useEffect(() => {
     fetchData.getPopularMovies().then((res) => {
@@ -20,6 +21,10 @@ const Home = () => {
     fetchData.getNowPlayingMovies().then((res) => {
       setNowPlaying(res);
     });
+
+    fetchData.getUpcomingMovies().then((res) => {
+      setUpcoming(res);
+    });
   }, []);
 
   return (
@@ -28,7 +33,8 @@ const Home = () => {
       <Movies
         popularMovies={popular}
         trendingMovies={trending}
-        nowPlayingMovies={trending}
+        nowPlayingMovies={nowPlaying}
+        upcomingMovies={upcoming}
       />
     </>
   );

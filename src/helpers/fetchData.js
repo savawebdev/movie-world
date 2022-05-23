@@ -26,6 +26,19 @@ const getNowPlayingMovies = async () => {
   return result.data.results;
 };
 
-const fetchData = { getPopularMovies, getTrendingMovies, getNowPlayingMovies };
+const getUpcomingMovies = async () => {
+  const result = await axios.get(
+    `https://api.themoviedb.org/3/movie/upcoming?api_key=${apiKey}&language=en-US&page=1`
+  );
+
+  return result.data.results;
+};
+
+const fetchData = {
+  getPopularMovies,
+  getTrendingMovies,
+  getNowPlayingMovies,
+  getUpcomingMovies,
+};
 
 export default fetchData;
