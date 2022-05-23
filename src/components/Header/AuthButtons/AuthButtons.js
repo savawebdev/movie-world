@@ -3,9 +3,9 @@ import Button from "./Button/Button";
 
 const AuthButtons = () => {
   return (
-    <div>
-      <Button label="Login" />
-      <Button label="Register" />
+    <div className={styles["auth-buttons"]}>
+      <Button label="Login" pathName="/login" />
+      <Button label="Register" pathName="/register" />
     </div>
   );
 };
