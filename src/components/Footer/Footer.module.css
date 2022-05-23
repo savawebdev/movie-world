@@ -1,0 +1,22 @@
+.footer {
+  align-items: center;
+  background-color: var(--clr-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 100px;
+  padding-block: 50px;
+  width: 100%;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.data-attribution > a {
+  color: var(--clr-blue);
+  font-weight: bold;
+  text-decoration: none;
+}
