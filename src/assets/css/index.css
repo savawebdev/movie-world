@@ -14,5 +14,6 @@
 /********** UNIVERSAL STYLES **********/
 body {
   background-color: var(--clr-primary);
+  color: var(--clr-primary);
   font-family: "Inter", sans-serif;
 }
