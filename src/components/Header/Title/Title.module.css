@@ -1,0 +1,9 @@
+.title {
+  color: var(--clr-secondary);
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.title-highlight {
+  color: var(--clr-green);
+}
