@@ -5,7 +5,7 @@ import AuthButtons from "./AuthButtons/AuthButtons";
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <Title />
       <Nav />
       <AuthButtons />
