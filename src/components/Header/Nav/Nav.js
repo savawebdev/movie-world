@@ -4,7 +4,7 @@ import NavLink from "./NavLink/NavLink";
 const Nav = () => {
   return (
     <nav>
-      <ul>
+      <ul className={styles.nav}>
         <NavLink label="Home" pathName="/" />
         <NavLink label="Top rated" pathName="/top-rated" />
         <NavLink label="Discover" pathName="/discover" />
