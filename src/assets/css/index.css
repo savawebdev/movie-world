@@ -3,3 +3,15 @@
 
 /********** CSS RESET **********/
 @import "./reset.css";
+
+/********** CUSTOM PROPERTIES **********/
+:root {
+  --clr-primary: #132e32;
+  --clr-secondary: #efe6dd;
+  --clr-green: #baff29;
+}
+
+/********** UNIVERSAL STYLES **********/
+body {
+  background-color: var(--clr-primary);
+}
