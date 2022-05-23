@@ -2,7 +2,13 @@
   background: url("../../assets/images/hero-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   height: 400px;
+  justify-content: flex-start;
+  padding-top: 50px;
   position: relative;
   width: 100%;
 }
