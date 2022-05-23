@@ -1,0 +1,11 @@
+.nav-link {
+  color: var(--clr-secondary);
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.nav-link:hover {
+  color: var(--clr-green);
+}

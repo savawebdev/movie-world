@@ -4,7 +4,9 @@ import styles from "./NavLink.module.css";
 const NavLink = ({ label, pathName }) => {
   return (
     <li>
-      <Link to={pathName}>{label}</Link>
+      <Link to={pathName} className={styles["nav-link"]}>
+        {label}
+      </Link>
     </li>
   );
 };
