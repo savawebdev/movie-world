@@ -1,4 +1,4 @@
-# Project Name
+# Movie World
 
 > App that helps users discover movies
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
